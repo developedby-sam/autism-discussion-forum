@@ -2,7 +2,7 @@ import React from "react";
 
 import "./discussion-forum.styles.scss";
 import QuestionBox from "../question-box/question-box.component";
-import QUESTIONS from "../../Questions";
+import QUESTIONS from "./question-data";
 import ANSWERS from "./answer-data";
 import AnswerBox from "../answer-box/answer-box.component";
 
