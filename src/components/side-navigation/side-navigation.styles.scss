@@ -1,0 +1,30 @@
+.side-navigation {
+  height: 88vh;
+  width: 30%;
+  padding: 0 5%;
+
+  .navigation-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 5rem;
+
+    .link {
+      font-size: 1.8rem;
+      font-weight: 500;
+
+      &:not(:last-child) {
+        padding-bottom: 5rem;
+      }
+    }
+
+    svg {
+      margin-right: 10px;
+    }
+  }
+
+  .selected {
+    color: #0ea5e9;
+  }
+}
